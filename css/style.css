@@ -16,8 +16,7 @@ html {
 }
 body {
     background-color: #F8F7F1;
-    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><circle cx="10" cy="10" r="10" fill="%23141414" /></svg>'), auto;
-
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='30'%3E%3Ccircle cx='20' cy='20' r='200' fill='%23141414' /%3E%3C/svg%3E"), auto;
 }
 .wrapper {
     display: grid;
@@ -40,6 +39,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    font-style: italic;
 }
 .header {
     border: 0px solid red;
