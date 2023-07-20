@@ -18,6 +18,14 @@ body {
     background-color: #F8F7F1;
     cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2' height='30'%3E%3Ccircle cx='20' cy='20' r='200' fill='%23141414' /%3E%3C/svg%3E"), auto;
 }
+::selection {
+    background: #141414;
+    color: #F8F7F1;
+}
+::-moz-selection {
+    background: #141414;
+    color: #F8F7F1;
+}
 .wrapper {
     display: grid;
     justify-content: center;  /* Horizontally align */
@@ -31,7 +39,7 @@ hr {
     width: 575px;
     border-width:0;
     color: none;
-    background-color: #1b1b1b;
+    background-color: #141414;
 }
 a {
     color: #141414;
