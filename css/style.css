@@ -64,7 +64,7 @@ a:hover {
     border: 0px solid purple;
 }
 .top-div {
-    height: 28vh;
+    height: 32vh;
     border: 0px solid orange;
 }
 .bottom-div {
@@ -74,17 +74,18 @@ a:hover {
 @media only screen and (max-width: 600px) {
     html {
         font-family: 'IBM Plex Mono', serif;
-        font-weight: 300;
-        font-size: min(max(1rem, 8vw), 22px);
+        font-weight: 400;
+        font-size: min(max(1rem, 8vw), 18px);
         color: #141414;
         line-height: 1.3;
         overflow: hidden;
     }
     .header, .footer, hr {
-        width: 300px;
+        width: 280px;
     }
 
     .footer {
-        font-size: 16.4px;
+        font-size: 10px;
+        font-weight: 500;
     }
   }
